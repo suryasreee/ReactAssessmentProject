@@ -1,0 +1,135 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.header-bg,
+.footer-bg {
+  background-color: #00445f;
+  min-height: 25px;
+  color: #fff;
+  padding: 5px;
+  position: fixed;
+  width: 100%;
+}
+.header-bg {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.footer-bg {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.btnback {
+  float: right;
+  margin: 10px 65px;
+  display: block;
+  border-radius: 5px;
+  background-color: #00445f;
+  padding: 5px;
+  color: #fff;
+  font-size: 16px;
+}
+.searchbar {
+  width: 40%;
+  padding: 4px 0px;
+  border: solid #00445f;
+}
+.searchbtn {
+  background-color: #00445f;
+  padding: 4px;
+  border-radius: 0 5px 5px 0;
+  color: #fff;
+}
+.par-div {
+  display: block;
+  margin: 15px 0px;
+}
+.Humi-div,
+.Wind-div {
+  width: 40%;
+  border: 1px solid #00445f;
+  text-align: center;
+  padding: 10px 5px;
+  min-height: 50px;
+  vertical-align: middle;
+  border-radius: 15px;
+  display: inline-grid;
+  margin: 0 10px;
+}
+.data-label {
+  font-size: 30px;
+  font-weight: 600;
+}
+.Result-bg {
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  min-height: 245px;
+  margin: 15px 25%;
+  padding: 25px;
+  width: 50%;
+  display: inline-block;
+}
+.inner-lbl {
+  font-size: 18px;
+}
+.Top-lbl {
+  font-size: 40px;
+  font-weight: 600;
+  color: #00445f;
+}
+
+.Top-lbl span {
+  font-size: 30px;
+}
+.liststyle {
+  width: 40%;
+}
+.liststyle ul {
+  margin: 0;
+  padding: 0;
+}
+.liststyle ul li {
+  border: 1px solid #cecece;
+}
+/* new css */
+tbody,
+td,
+th,
+thead {
+  border: 1px solid #cecece;
+}
+table {
+  width: 100%;
+}
+th,
+td {
+  text-align: center;
+}
+.cartBtnDiv,
+.cartTopBar {
+  margin: 10px;
+  float: right;
+  display: inline-block;
+}
+.ProductListDiv {
+  display: inline-block;
+  width: 100%;
+}
+.cartBtn {
+  margin: 0;
+  color: #fff;
+  background-color: #00445f;
+}
+.MuiCardContent-root {
+  padding: 5px 10px !important;
+}
+.cartTopBar {
+  margin: 0px 30px;
+}

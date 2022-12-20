@@ -1,0 +1,106 @@
+.loader-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.834);
+  z-index: 1;
+}
+
+.spinner {
+  width: 64px;
+  height: 64px;
+  border: 8px solid;
+  border-color: #3d5af1 transparent #3d5af1 transparent;
+  border-radius: 50%;
+  animation: spin-anim 1.2s linear infinite;
+}
+
+@keyframes spin-anim {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.DisplayUsers {
+  margin: 15px 0px 50px 0px;
+}
+.LinkTag {
+  text-decoration: none;
+}
+.Card-width {
+  width: 30%;
+  display: inline-block;
+  padding: 10px;
+}
+.Avatar-img {
+  min-height: 140px;
+}
+.DisplayUsers .card-bg {
+  background-color: #ffeded;
+}
+.btndiv {
+  width: 100%;
+  display: inline-block;
+}
+.btnmargin {
+  margin: 10px;
+}
+.img-style {
+  border-radius: 80px;
+  border: 1px solid #cecece;
+}
+.UserDetail .card-pos {
+  text-align: center;
+  background-color: #ffeded;
+}
+.LeftWidth,
+.RightWidth {
+  width: 30%;
+  display: inline-block;
+}
+.AlignMiddle {
+  width: 40%;
+  display: inline-block;
+}
+.UserName {
+  font-size: 30px;
+  font-weight: 700;
+}
+.Homediv {
+  text-align: center;
+  margin: 30px 10px 10px 10px;
+}
+.Hi-label {
+  font-size: 40px;
+  text-align: center;
+  display: block;
+}
+.Q-label {
+  font-size: 40px;
+  text-align: center;
+}
+.gif-width img {
+  width: 200px;
+  text-align: center;
+  padding: 15px 0px;
+}
+.btnExplore {
+  border-radius: 5px;
+  background-color: #00445f;
+  padding: 5px;
+  color: #fff;
+  font-size: 16px;
+}
+/* .img-width {
+  width: 15%;
+  display: inline-block;
+}
+.detail-width {
+  width: 80%;
+  display: inline-block;
+} */
